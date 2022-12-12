@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(120deg, #6c3483, #58d68D);
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: auto;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+}
+
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .formulario__planta{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    transform: all 0.25s;
+}
+/*
+.datable__principal .formulario{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+}*/
+
